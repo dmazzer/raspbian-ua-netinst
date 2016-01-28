@@ -1,0 +1,7 @@
+preset=server
+packages=python,python-pip,python-serial,sudo,nano,openssh-server,openvpn,git
+hostname=nrm
+domainname=
+rootpw=dmazzer
+
+

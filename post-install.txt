@@ -5,6 +5,9 @@ echo "bcm2708-rng" >> /rootfs/etc/modules
 echo "Configuring LEDs behavior"
 echo "echo 'default-on' > /sys/class/leds/led0/trigger" >> /rootfs/etc/rc.local
 echo "echo 'heartbeat' > /sys/class/leds/led1/trigger" >> /rootfs/etc/rc.local
- 
+
+echo "Testando download de arquvivo"
+wget http://raw.github.com/dmazzer/raspbian-ua-netinst/master/README.md /rootfs/baixou.md
+wget -P /rootfs http://raw.github.com/dmazzer/raspbian-ua-netinst/master/post-install-scripts/prepare.sh
 
 

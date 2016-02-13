@@ -1,5 +1,5 @@
 preset=server
-packages=python,python-pip,python-serial,sudo,nano,openssh-server,openvpn,git
+packages=python,python-pip,python-serial,sudo,nano,openssh-server,openvpn,git,usb-modeswitch,usbutils,rng-tools,raspi-copies-and-fills,ppp,wvdial
 hostname=nrm
 domainname=
 rootpw=dmazzer

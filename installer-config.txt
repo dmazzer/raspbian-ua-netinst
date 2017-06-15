@@ -1,5 +1,5 @@
 preset=server
-packages=python,python-pip,python-serial,sudo,nano,openssh-server,openvpn,git,usb-modeswitch,usbutils,rng-tools,raspi-copies-and-fills,ppp,wvdial
+packages=python,python-pip,python-serial,sudo,nano,openssh-server,openvpn,git,usb-modeswitch,usbutils,rng-tools,raspi-copies-and-fills,ppp,wvdial,python-smbus,i2c-tools,fswebcam,python-zmq,mongodb-clients,mongodb-server,python-bson,python-pymongo
 hostname=nrm
 domainname=
 rootpw=dmazzer
